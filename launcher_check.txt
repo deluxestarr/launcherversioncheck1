@@ -1,1 +1,1 @@
-launcherGiris = bakim
+bakim
