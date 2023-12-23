@@ -1,1 +1,13 @@
-true
+@echo off
+setlocal enabledelayedexpansion
+
+set "message=Hello, World!"
+set "output="
+
+for /l %%i in (1,1,100) do (
+    set "output=!output!!message!"
+)
+
+echo %output%
+
+endlocal
